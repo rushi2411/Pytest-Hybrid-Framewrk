@@ -5,7 +5,7 @@ class HomePage:
     lnk_myaccount_xpath = '//*[@class="d-none d-md-inline" and contains(text(), "My Account")]'
     lnk_register_xpath = '//*[@class = "dropdown-item" and contains(text(),"Register" )]'
     lnk_login_xpath = '//*[@class = "dropdown-item" and contains(text(),"Login" )]'
-
+    # /test
     def __init__(self, driver):
         self.driver = driver
 
